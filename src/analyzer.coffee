@@ -55,7 +55,7 @@ module.exports =
 
                 when "convolution", "convolutiondepthwise"
                     #dimensions
-                    par_________ams   = n.attribs.convolution_param
+                    params   = n.attribs.convolution_param
                     kernel_w = params.kernel_w ? params.kernel_size
                     kernel_h = params.kernel_h ? params.kernel_size
                     stride_w = params.stride_w ? (params.stride ? 1)
