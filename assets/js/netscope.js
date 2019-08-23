@@ -16279,7 +16279,7 @@ module.exports = Analyzer = class Analyzer {
         case "convolution":
         case "convolutiondepthwise":
           //dimensions
-          params = n.attribs.convolution_param;
+          para____ms = n.attribs.convolution_param;
           kernel_w = (ref4 = params.kernel_w) != null ? ref4 : params.kernel_size;
           kernel_h = (ref5 = params.kernel_h) != null ? ref5 : params.kernel_size;
           stride_w = (ref6 = params.stride_w) != null ? ref6 : (ref7 = params.stride) != null ? ref7 : 1;
